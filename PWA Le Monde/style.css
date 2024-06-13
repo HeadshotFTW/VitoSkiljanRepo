@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+@media screen and (max-width: 500px) {
+  nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+  }
+}
+
+
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 2px solid gainsboro;
+}
+
+header h1 {
+  white-space: nowrap;
+  font-family: "UnifrakturMaguntia";
+  font-weight: 500;
+  font-size: 76px;
+  text-shadow: -3px 2px rgb(196, 196, 196);
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
+.category {
+  margin-bottom: 40px;
+}
+
+.category h2 {
+  font-family: 'Georgia', serif;
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.sub {
+  margin-bottom: 40px;
+}
+
+.sub h2 {
+  font-family: 'Georgia', serif;
+  color: rgb(0, 0, 0);
+  border-bottom: 2px solid #000;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.background {
+  background-color: #ffffff;
+  margin-top: -20px;
+  padding: 20px 20px 10px 20px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  gap: 20px;
+}
+
+article {
+  background-color: #fff;
+  padding: 10px;
+  width: calc(25% - 20px);
+  min-width: 250px;
+  box-sizing: border-box;
+}
+
+article img {
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover
+}
+
+article p {
+  font-size: 14px;
+}
+
+article h4 {
+  position: relative;
+  bottom: 0px;
+  text-decoration: underline;
+}
+
+.login-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: auto;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  text-align: end;
+}
+
+.login-button a {
+  text-decoration: none;
+  padding: 5px;
+  color: #000;
+  font-weight: bold;
+  border: 2px solid #ddd;
+  background-color: rgb(232, 240, 247);
+}
+
+article.clanak {
+  font-family: 'Georgia', serif;
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+article.clanak h2 {
+  border-bottom: 4px solid #000;
+  font-family: 'Georgia', serif;
+  padding: 0px;
+  font-size: 50px;
+  margin: 0px;
+}
+
+article.clanak img {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 750px;
+  height: auto;
+  object-fit: cover
+}
+
+.content {
+  padding-top: 50px;
+  
+}
+
+.author {
+  color: #949494;
+}
+
+.published {
+  color: #949494;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 20px; /* Space between form and aside */
+}
+
+form {
+  flex: 1;
+}
+
+aside {
+  width: 500px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px; 
+  max-width: 100%; 
+  max-height: 300px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul li {
+  margin: 0 15px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
